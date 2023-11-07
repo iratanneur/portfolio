@@ -30,9 +30,9 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: v0.71.0-06150C87/extended linux/amd64
+      HUGO_VERSION: v0.120.3
     steps:
       - name: Install Hugo CLI
         run: |
